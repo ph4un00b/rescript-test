@@ -4,4 +4,8 @@ dist
 .vscode
 lib
 */**/*.res.js
+*/**/*.res.mjs
+*/**/*.res.cjs
 */**/*.bs.js
+*/**/*.bs.mjs
+*/**/*.bs.cjs
