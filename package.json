@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "r:build": "rescript",
+    "r:clean": "rescript clean",
+    "r:dev": "rescript-w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +19,8 @@
     "@rescript/core": "1.3.0",
     "rescript": "11.1.0",
     "rescript-webapi": "0.9.1"
+  },
+  "devDependencies": {
+    "vite": "5.2.11"
   }
 }
